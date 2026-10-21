@@ -1,0 +1,62 @@
+{
+  "app": "名著学习工作台",
+  "version": 3,
+  "books": [
+    {
+      "id": "hongxing-zhaoyao-zhongguo",
+      "title": "红星照耀中国",
+      "file": "books/hongxing-zhaoyao-zhongguo.md",
+      "grade": "八上",
+      "status": "full"
+    },
+    {
+      "id": "jianai",
+      "title": "简·爱",
+      "file": "books/jianai.md",
+      "grade": "九下",
+      "status": "skeleton"
+    },
+    {
+      "id": "kunzhongji",
+      "title": "昆虫记",
+      "file": "books/kunzhongji.md",
+      "grade": "七下",
+      "status": "skeleton"
+    },
+    {
+      "id": "luotuoxiangzi",
+      "title": "骆驼祥子",
+      "file": "books/luotuoxiangzi.md",
+      "grade": "七下",
+      "status": "full"
+    },
+    {
+      "id": "nahan",
+      "title": "呐喊",
+      "file": "books/nahan.md",
+      "grade": "七下",
+      "status": "full"
+    },
+    {
+      "id": "shuihuzhuan",
+      "title": "水浒传",
+      "file": "books/shuihuzhuan.md",
+      "grade": "九上",
+      "status": "full"
+    },
+    {
+      "id": "xiyouji",
+      "title": "西游记",
+      "file": "books/xiyouji.md",
+      "grade": "七上",
+      "status": "full"
+    },
+    {
+      "id": "zhaohuaxishi",
+      "title": "朝花夕拾",
+      "file": "books/zhaohuaxishi.md",
+      "grade": "七上",
+      "status": "full"
+    }
+  ]
+}

@@ -9,6 +9,11 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>名著学习工作台</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="assets/site.webmanifest">
 <style>
 /* 名著学习工作台 · 样式（浅色 · 朱红主题 · 响应式） */
 :root{
@@ -408,10 +413,12 @@ ${l.stack}`)}else c=o?.stack??"";let f=this.url.toString().length;return o?.name
 </script>
 <script>
 /* ==== config.js ==== */
-// 公网构建：不内置任何服务端密钥（publishableKey/endpoint 一律不留）。
-// AI 生成走「DeepSeek 直连」：用户在「模型配置」页粘贴自己的 DeepSeek API Key，
-// 仅存本浏览器 localStorage，由浏览器直调 api.deepseek.com（CORS 已实测放行）。
-window.HXW_PUBLIC_CONFIG = {};
+// 云服务公共配置（由 activate 返回的 publicConfig 写入；仅前端安全字段）
+// 说明：AI「生成新书」需要联网；离线时应用仍可浏览内置书目与本地数据。
+window.HXW_PUBLIC_CONFIG = {
+  endpoint: "https://classics-workbench.app.workbuddy.host",
+  publishableKey: "wbpk_xRL6HPptKfXWoNx37MV7KF_dQqMjUSUKNMdmccXvDWAXKKnBkreqf79"
+};
 
 </script>
 <script>

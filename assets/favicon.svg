@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 名著学习工作台 · 站点图标：朱红书卷 + 灵感之星 -->
+  <defs>
+    <linearGradient id="mz-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c62f29"/>
+      <stop offset="1" stop-color="#8a1a1a"/>
+    </linearGradient>
+  </defs>
+  <!-- 朱红圆角底（站点主题色 #b22222 系） -->
+  <rect width="512" height="512" rx="112" fill="url(#mz-bg)"/>
+  <!-- 米白内描边，提升精致感 -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#faf5e9" stroke-opacity=".22" stroke-width="3"/>
+  <!-- 灵感之星（金） -->
+  <path d="M256 115 C259.5 131 264 135.5 282 141 C264 146.5 259.5 151 256 167 C252.5 151 248 146.5 230 141 C248 135.5 252.5 131 256 115 Z" fill="#f2c25c"/>
+  <!-- 打开的书（宣纸白） -->
+  <path d="M256 193 C214 177 158 175 118 187 L118 363 C158 351 214 353 256 369 C298 353 344 351 384 363 L384 187 C344 175 288 177 256 193 Z" fill="#faf5e9"/>
+  <!-- 书脊 -->
+  <path d="M256 197 V365" stroke="#e9dcc0" stroke-width="5" stroke-linecap="round"/>
+  <!-- 书页文字行（浅朱红） -->
+  <g stroke="#b22222" stroke-opacity=".30" stroke-width="11" stroke-linecap="round">
+    <path d="M148 223 H226"/>
+    <path d="M148 251 H226"/>
+    <path d="M148 279 H226"/>
+    <path d="M286 223 H364"/>
+    <path d="M286 251 H364"/>
+    <path d="M286 279 H364"/>
+  </g>
+</svg>
